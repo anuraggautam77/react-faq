@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > hapi > subtext > pez > b64 > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+    - gatsby > webpack-validator > joi > hoek:
+        patched: '2019-05-08T08:06:28.756Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2019-05-08T08:06:28.756Z'
+  'npm:moment:20170905':
+    - gatsby > webpack-validator > joi > moment:
+        patched: '2019-05-08T08:06:28.756Z'
