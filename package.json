@@ -22,7 +22,7 @@
     "gatsby-remark-responsive-iframe": "^1.4.7",
     "gatsby-remark-smartypants": "^1.4.7",
     "gatsby-source-filesystem": "^1.4.12",
-    "gatsby-transformer-remark": "^1.7.7",
+    "gatsby-transformer-remark": "^4.0.0",
     "gatsby-transformer-sharp": "^1.6.5",
     "react-headroom": "^2.1.6",
     "react-responsive-grid": "^0.3.3",
